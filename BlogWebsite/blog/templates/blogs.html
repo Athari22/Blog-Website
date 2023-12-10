@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Blogs Page{% endblock %}
+
+{% block content %}
+    <h1>List of Blog Titles</h1>
+    <ul>
+        <!-- Loop through blog titles and display -->
+        {% for blog in blogs %}
+        <li>{{ blog.title }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
