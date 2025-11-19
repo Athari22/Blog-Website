@@ -29,6 +29,7 @@ This project demonstrates skills in **backend development, REST architecture, da
 ---
 
 ## 📁 Repository Structure
+```
 Blog-Website/
 ├── BlogWebsite/                 # Main Django project folder
 │   ├── blog/                   # Blog application
@@ -64,7 +65,7 @@ Blog-Website/
 └── README.md                   # Project description
 
 
-
+```
 
 ## 🧪 How to Run the Project Locally
 
